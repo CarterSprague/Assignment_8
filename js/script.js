@@ -22,7 +22,7 @@ questionBlocks.forEach((block) => {
 
 function displayResult() {
   if (Object.keys(answers).length < questionBlocks.length) {
-    resultContainer.textContent = " Answer all thequestions first.";
+    resultContainer.textContent = "All questions must be answered to see the result.";
     return;
   }
 
